@@ -1,0 +1,84 @@
+.header {
+  background-color: #000000;
+  padding: 25px 20px;
+}
+@media (min-width: 960px) {
+  .header {
+    padding: 80px;
+    background-color: white;
+  }
+}
+
+.header-container {
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 960px) {
+  .header-container {
+    height: 75px;
+  }
+}
+
+.header__logo {
+  height: 100%;
+  width: 70px;
+  background-color: #849fff;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 960px) {
+  .header__logo {
+    width: 156px;
+    margin-right: 72px;
+  }
+}
+
+.header__logo-text {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.header-form {
+  height: 100%;
+  display: flex;
+  flex-grow: 1;
+}
+
+.header__input {
+  height: 100%;
+  width: 100%;
+  min-width: 70px;
+  margin: 0;
+  margin-right: 10px;
+  flex-grow: 1;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 10px;
+}
+@media (min-width: 960px) {
+  .header__input {
+    margin-right: 36px;
+  }
+}
+
+.header-form__button {
+  border: none;
+  height: 100%;
+  margin: 0;
+  width: 70px;
+  background-color: #393939;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+}
+@media (min-width: 960px) {
+  .header-form__button {
+    width: 242px;
+  }
+}
